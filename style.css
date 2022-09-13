@@ -1,0 +1,70 @@
+
+body {
+    background-image: linear-gradient(139deg, #c13e3e 0%, #e6b332 100%);
+}
+
+@font-face {
+    font-family : Poppins ;
+    font-weight: 400;
+    src : url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: add;
+    src: url('assets/add.svg');
+}
+
+h1 {
+    font-family : Poppins;
+    text-align: center;
+    color: white;
+}
+
+.box {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.box_task {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+img { 
+    width: 20px; 
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#add {
+    background-color: orange;
+}
+
+.del {
+    background-color: red;
+}
+
+.tick {
+    background-color: green;
+}
+
+.note {
+    background-color: rgb(45, 23, 189);
+}
+
+input {
+    width: 40%;
+    border: none;
+    font-size: 18px;
+}
+
+.box_task .del {
+    background-color: #c13e3e;
+}
+
+
+
